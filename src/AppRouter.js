@@ -2,10 +2,10 @@ import {Component, AppRouter} from 'react';
 import { HashRouter, Switch, Route } from "react-router-dom";
 
 
-function AppRouter(){
+function AppRouter(props){
     return(
-        <h1>Home 선택</h1>
-    )
+        <div>안녕하세요 {props.name}</div>    
+   )
 }
        
 
